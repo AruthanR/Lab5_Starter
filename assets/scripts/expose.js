@@ -20,7 +20,7 @@ function init() {
   function updateVolume() {
     const volume = volumeSlider.value;
     audioElement.volume = volume / 100;
-    if (volume == 0) {
+       if (volume == 0) {
       volumeIcon.src = 'assets/icons/volume-level-0.svg';
       volumeIcon.alt = 'Volume level 0';
     } else if (volume < 33) {
